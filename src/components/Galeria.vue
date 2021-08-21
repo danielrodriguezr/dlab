@@ -1,11 +1,9 @@
 <template>
-<div id="main-container">
   <div class="row" v-for="gallery in galleries" :key="gallery" :id="gallery.name">
     <div class="gallery">
       <img v-for="image in gallery.images" :src="image.url" :alt="image.url" :key="image"/>
     </div>
   </div>
-</div>
 </template>
 
 <script>
