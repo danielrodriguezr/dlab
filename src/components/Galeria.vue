@@ -93,7 +93,7 @@ export default {
   display: none;
 }
 .gallery img {
-  border-radius: 20px;
+  border-radius: 10%;
   margin: 50px;
   max-width: 100%;
   object-fit: cover;

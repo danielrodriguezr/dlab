@@ -11,6 +11,7 @@
     "chroma-js": "^2.1.2",
     "core-js": "^3.6.5",
     "nice-color-palettes": "^3.0.0",
+    "simplex-noise": "^3.0.0",
     "three": "0.127",
     "troisjs": "^0.3.2",
     "vue": "^3.0.0"

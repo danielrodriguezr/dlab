@@ -1,6 +1,7 @@
 <template>
 <header id="menu">
-    <h1 id="logo">drr.lab</h1>
+    <!-- <h1 id="logo">drr.lab</h1> -->
+    <img src="~@/assets/logo.png" alt="" id="logo">
     <ul>
       <li><a href="#BW">BW</a></li>
       <li><a href="#Colors">Colors</a></li>
@@ -31,6 +32,8 @@ export default {
 }
 #logo {
   position: absolute;
+  max-height: 100px;
+  top: 10px;
 }
 #menu ul {
   height: 80%;
